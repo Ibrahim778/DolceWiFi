@@ -1,5 +1,5 @@
 # DolceWiFi
 
-Plugin to add an enable / disable toggle for WiFi on PSTV (dolce) systems
+Plugin to add an enable / disable toggle for WiFi in the quick menu on PSTV (dolce) systems
 
 Requires QuickMenuReborn
