@@ -54,6 +54,7 @@ target_link_libraries(${PROJECT_NAME}
     ScePower_stub
     SceWlan_stub
     SceAppMgr_stub
+    SceVshBridge_stub
 )
 
 VDSuiteSignElf(${PROJECT_NAME}.suprx ${PROJECT_NAME})
