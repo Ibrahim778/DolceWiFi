@@ -90,7 +90,7 @@ extern "C" {
 
         if(paf::LocalFile::Exists("ur0:data/wifi.png"))
         {
-            QuickMenuRebornRegisterWidget(PREFIX "icon_plane", PREFIX "root_plane", plane);
+            iconPlaneData = QuickMenuRebornRegisterWidget(PREFIX "icon_plane", PREFIX "root_plane", plane);
             QuickMenuRebornSetWidgetSize(PREFIX "icon_plane", 65, 65, 0, 0);
             QuickMenuRebornSetWidgetColor(PREFIX "icon_plane", 1,1,1,1);
             QuickMenuRebornSetWidgetPosition(PREFIX "icon_plane", -338.5, 0, 0, 0);
