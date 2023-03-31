@@ -46,7 +46,7 @@ void OnCheckBoxPressed(const char *refID, SceInt32 hash, SceInt32 eventID, void 
         if(sceAppMgrGetStatusByName("NPXS10015", &status) == 0)
             sceAppMgrQuitApp(status.appId);
         sceRegMgrSetKeyInt("/CONFIG/NET", "wifi_flag", !wlanThing ? 1 : 0);
-        if(!iconPlaneData)
+        if(iconPlaneData != SCE_NULL)
             QuickMenuRebornSetWidgetColor(PREFIX "icon_plane", 1,1,1, !wlanThing ? 1 : 0.4f);
     }
 }
